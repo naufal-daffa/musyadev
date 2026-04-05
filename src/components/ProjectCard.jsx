@@ -54,7 +54,7 @@ const ProjectCard = ({ project }) => {
             className="detail-btn"
             onClick={openModal}
           >
-            <i className="fas fa-info-circle"></i> Lihat Detail Proyek
+            <i className="fas fa-info-circle"></i> See Project Details
           </button>
         </div>
       </div>
@@ -84,7 +84,7 @@ const ProjectCard = ({ project }) => {
               {/* Deskripsi Lengkap */}
               <div className="modal-section">
                 <h4 className="modal-section-title">
-                  <i className="fas fa-align-left"></i> Deskripsi Lengkap
+                  <i className="fas fa-align-left"></i> Project Description
                 </h4>
                 <p className="modal-text">{project.longDescription || project.description}</p>
               </div>
@@ -92,7 +92,7 @@ const ProjectCard = ({ project }) => {
               {/* Fitur Unggulan */}
               <div className="modal-section">
                 <h4 className="modal-section-title">
-                  <i className="fas fa-star"></i> Fitur Unggulan
+                  <i className="fas fa-star"></i> Key Features
                 </h4>
                 <div className="modal-features-grid">
                   {project.features.map((feature, idx) => (
@@ -121,11 +121,11 @@ const ProjectCard = ({ project }) => {
               {/* Informasi Tambahan */}
               <div className="modal-section">
                 <h4 className="modal-section-title">
-                  <i className="fas fa-tag"></i> Informasi Proyek
+                  <i className="fas fa-tag"></i> Additional Info
                 </h4>
                 <div className="modal-info-grid">
                   <div className="modal-info-item">
-                    <span className="modal-info-label">Tipe:</span>
+                    <span className="modal-info-label">Type:</span>
                     <span className="modal-info-value">{project.type}</span>
                   </div>
                   <div className="modal-info-item">
@@ -138,7 +138,7 @@ const ProjectCard = ({ project }) => {
             
             <div className="modal-footer">
               <button className="modal-footer-btn close-btn" onClick={closeModal}>
-                <i className="fas fa-times"></i> Tutup
+                <i className="fas fa-times"></i> Close
               </button>
               {project.repo && project.repo !== '#' && (
                 <a 
@@ -147,7 +147,7 @@ const ProjectCard = ({ project }) => {
                   rel="noopener noreferrer"
                   className="modal-footer-btn repo-btn"
                 >
-                  <i className="fab fa-github"></i> Lihat Repository
+                  <i className="fab fa-github"></i> View Repository
                 </a>
               )}
             </div>

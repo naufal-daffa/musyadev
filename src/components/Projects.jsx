@@ -11,8 +11,8 @@ const projects = [
     thumbImage: hrAbsenThumb,
     badge: 'Laravel + React',
     title: 'HR-Absen',
-    subtitle: 'Sistem Presensi Real-time',
-    description: 'Aplikasi presensi karyawan modern dengan fitur foto selfie, validasi lokasi GPS, dan rekap presensi bulanan interaktif.',
+    subtitle: 'Real-time Attendance System',
+    description: 'A modern employee attendance application with selfie verification, GPS-based location validation, and interactive monthly attendance reports.',
     techIcons: [
       { name: 'Laravel', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg', color: '#ff2d20' },
       { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg', color: '#61dafb' },
@@ -20,15 +20,15 @@ const projects = [
       { name: 'Tailwind', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg', color: '#06b6d4' },
     ],
     features: [
-      '✅ Presensi masuk/keluar dengan foto selfie',
-      '✅ Validasi lokasi berbasis GPS',
-      '✅ Rekap presensi per bulan',
-      '✅ Pengajuan izin & sakit online',
-      '✅ Export laporan ke Excel/PDF',
-      '✅ Multi-role (Admin & Karyawan)'
+      '✅ Clock-in/out with selfie verification',
+      '✅ GPS-based location validation',
+      '✅ Monthly attendance reports',
+      '✅ Online leave & sick requests',
+      '✅ Export reports to Excel/PDF',
+      '✅ Multi-role system (Admin & Employee)'
     ],
     type: 'Web App',
-    name: 'HR-Absen - Presensi Karyawan',
+    name: 'HR-Absen - Employee Attendance System',
     repo: '#'
   },
   {
@@ -38,7 +38,7 @@ const projects = [
     badge: 'Next.js 14 + Midtrans',
     title: 'Dedicious',
     subtitle: 'Modern E-commerce',
-    description: 'Toko online modern dengan fitur katalog produk, keranjang belanja, pembayaran Midtrans, dan admin panel.',
+    description: 'A modern online store featuring product catalog, shopping cart, Midtrans payment integration, and an admin dashboard.',
     techIcons: [
       { name: 'Next.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg', color: '#000' },
       { name: 'MySQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg', color: '#4479a1' },
@@ -46,15 +46,15 @@ const projects = [
       { name: 'Midtrans', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbqUjkPMyCCyT2bvjWXAewgxQnnARiQ1Nzxw&s', color: '#00a86b' }
     ],
     features: [
-      '✅ Autentikasi Google OAuth',
-      '✅ Katalog produk + filter & search',
-      '✅ Keranjang belanja',
-      '✅ Pembayaran dengan Midtrans (CC, VA, QRIS)',
-      '✅ Riwayat pesanan',
-      '✅ Admin panel (CRUD produk)'
+      '✅ Google OAuth authentication',
+      '✅ Product catalog with filtering & search',
+      '✅ Shopping cart system',
+      '✅ Midtrans payment integration (CC, VA, QRIS)',
+      '✅ Order history tracking',
+      '✅ Admin panel (product CRUD)'
     ],
     type: 'Web App',
-    name: 'Dedicious - E-commerce Modern',
+    name: 'Dedicious - Modern E-commerce',
     repo: '#'
   },
   {
@@ -63,8 +63,8 @@ const projects = [
     thumbImage: spmbThumb,
     badge: 'Laravel + Bootstrap',
     title: 'SPMB Online',
-    subtitle: 'Sistem Penerimaan Murid Baru',
-    description: 'Platform digital untuk manajemen pendaftaran siswa baru dengan fitur registrasi online, verifikasi dokumen, seleksi, dan pengumuman hasil.',
+    subtitle: 'Student Admission System',
+    description: 'A digital platform for managing student admissions with online registration, document verification, selection process, and result announcements.',
     techIcons: [
       { name: 'Laravel', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg', color: '#ff2d20' },
       { name: 'MySQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg', color: '#4479a1' },
@@ -73,20 +73,20 @@ const projects = [
       { name: 'Midtrans', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbqUjkPMyCCyT2bvjWXAewgxQnnARiQ1Nzxw&s', color: '#00a86b' }
     ],
     features: [
-      '✅ Pendaftaran online dengan form digital',
-      '✅ Upload dokumen persyaratan',
-      '✅ Validasi data otomatis',
-      '✅ 3 role: Admin, Staff, Pendaftar',
-      '✅ Kelola jalur pendaftaran',
-      '✅ Kelola gelombang registrasi',
-      '✅ Verifikasi dokumen & pembayaran',
-      '✅ Proses seleksi & scoring',
-      '✅ Pengumuman hasil via dashboard',
-      '✅ Generate laporan Excel/PDF',
-      '✅ Dashboard realtime dengan chart'
+      '✅ Online registration with digital forms',
+      '✅ Document upload system',
+      '✅ Automated data validation',
+      '✅ 3 roles: Admin, Staff, Applicant',
+      '✅ Admission pathway management',
+      '✅ Registration wave management',
+      '✅ Document & payment verification',
+      '✅ Selection & scoring process',
+      '✅ Result announcements via dashboard',
+      '✅ Export reports to Excel/PDF',
+      '✅ Real-time dashboard with charts'
     ],
     type: 'Web App',
-    name: 'SPMB Online - Penerimaan Murid Baru',
+    name: 'SPMB Online - Student Admission System',
     repo: 'https://github.com/naufal-daffa/ppdb-site'
   }
 ];
