@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Certificates from './components/Certificates';
 
 function App() {
   const [activeTab, setActiveTab] = useState('projects');
@@ -33,6 +34,7 @@ function App() {
           <div className="content">
             <Tabs activeTab={activeTab} setActiveTab={setActiveTab} />
             {activeTab === 'projects' && <Projects />}
+            {activeTab === 'certificates' && <Certificates />}
             {activeTab === 'resume' && <Resume />}
             {activeTab === 'contact' && <Contact />}
           </div>

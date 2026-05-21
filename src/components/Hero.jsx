@@ -16,7 +16,7 @@ const Hero = () => {
           <a href="mailto:naufaldaffamusyava@gmail.com" className="contact-badge">
             <i className="fas fa-envelope"></i> naufaldaffamusyava@gmail.com
           </a>
-          <a href="tel:+6285719699395" className="contact-badge">
+          <a href="https://wa.me/085719699395" target="_blank" className="contact-badge">
             <i className="fas fa-phone"></i> +6285719699395
           </a>
         </div>

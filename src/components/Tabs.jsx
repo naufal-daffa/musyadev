@@ -1,6 +1,7 @@
 const Tabs = ({ activeTab, setActiveTab }) => {
   const tabs = [
     { id: 'projects', label: 'Projects' },
+    { id: 'certificates', label: 'Certificates' },
     { id: 'resume', label: 'Resume' },
     { id: 'contact', label: 'Contact' }
   ];

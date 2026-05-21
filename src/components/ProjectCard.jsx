@@ -128,10 +128,6 @@ const ProjectCard = ({ project }) => {
                     <span className="modal-info-label">Type:</span>
                     <span className="modal-info-value">{project.type}</span>
                   </div>
-                  <div className="modal-info-item">
-                    <span className="modal-info-label">Status:</span>
-                    <span className="modal-info-value badge-success">Production Ready</span>
-                  </div>
                 </div>
               </div>
             </div>
